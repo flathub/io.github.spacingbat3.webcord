@@ -17,8 +17,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.2.0.tar.gz
-        sha256: 472eea406b220d28ad2eb5d3da65ec39ddb9503a0309e190e87af095943243b2
+        url: https://github.com/vega-d/WebCord_flatpak_build/releases/download/v0.0-rolling/WebCord_tarball.tar.gz
+        sha256: ebc9ec1cb38819722b78705f83e5d07e32b8c75b4cf32f9bb72b94b447a463b8
         dest: ./main
       #- type: archive
       #  path: ../WebCord_tarball.tar.gz

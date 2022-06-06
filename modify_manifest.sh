@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-wget https://github.com/SpacingBat3/WebCord/releases/latest
+wget https://github.com/vega-d/WebCord_flatpak_build/releases/latest
 wget https://github.com$(cat latest | grep tar.gz | grep href | awk 'BEGIN { FS = "\"" }; { print $2 }')
 NEW_URL=$(cat latest | grep tar.gz | grep href | awk 'BEGIN { FS = "\"" }; { print $2 }')
 NEW_SHASUM=$(sha256sum v3.2.0.tar.gz | awk 'BEGIN { FS = " " }; { print $1 }') 
