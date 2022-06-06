@@ -48,3 +48,12 @@ modules:
       - chmod +x ./main/*
       - mv ./main/* /app/bin/.
       # - for i in $(ls main); do install -Dm4755 "./main/$i" "/app/bin/$i"; done
+  - name: socat
+    sources:
+      - type: archive
+        url: http://www.dest-unreach.org/socat/download/socat-1.7.4.3.tar.gz
+        sha256: d697245144731423ddbbceacabbd29447089ea223e9a439b28f9ff90d0dd216e
+        x-cheker-data:
+          type: anitya
+          project-id: 4848
+          url-template: http://www.dest-unreach.org/socat/download/socat-$version.tar.gz
