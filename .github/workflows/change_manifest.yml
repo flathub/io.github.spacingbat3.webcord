@@ -5,7 +5,7 @@ on:
     inputs:
       source:
         description: 'Source of event'
-        required: 'false'
+        required: false
         default: 'No source specified'
 
 jobs:
