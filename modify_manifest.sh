@@ -9,9 +9,9 @@ NEW_SHASUM=$(sha256sum WebCord_${LATEST_RELEASE}.tar.gz  | awk 'BEGIN { FS = " "
 sed -i "s\.*url: https://github.com/vega-d.*\        url: https://github.com${NEW_URL}\g" io.github.spacingbat3.webcord.yml
 sed -i "s\.*sha256:.*\        sha256: ${NEW_SHASUM}\g" io.github.spacingbat3.webcord.yml
 cat io.github.spacingbat3.webcord.yml
-#git config user.name "Github manifest bot"
-#git config user.email "<>"
-#git add io.github.spacingbat3.webcord.yml
-#git commit -m "modify manifest with new release and sha256sum"
-#git push origin master
+git config user.name "Github manifest bot"
+git config user.email "<>"
+git add io.github.spacingbat3.webcord.yml
+git commit -m "modify manifest with new release and sha256sum"
+git push origin master
 
