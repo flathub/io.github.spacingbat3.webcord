@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        descrciption: 'Source of event'
+        description: 'Source of event'
         required: 'false'
         default: 'No source specified'
 
