@@ -1,0 +1,23 @@
+name: Modify Manifest
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        descrciption: 'Source of event'
+        required: 'false'
+        default: 'No source specified'
+
+jobs:
+  modify_manifest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: fetch latest release page
+        run: wget https://github.com/SpacingBat3/WebCord/releases/latest
+      - name: parse release url and change manifest
+        run: NEW_URL=$(cat latest | grep tar.gz | grep href | awk 'BEGIN { FS = "\"" }; { print $2 }') sed -i "s\.*url: https://github.com/vega-d.*\        url: https://github.com${NEW_URL}\g" io.github.spacingbat3.webcord.yml 
+      - name: calculate sha256 of new release and change manifest
+        run: wget https://github.com$(cat latest | grep tar.gz | grep href | awk 'BEGIN { FS = "\"" }; { print $2 }') && NEW_SHASUM=$(sha256sum v3.2.0.tar.gz | awk 'BEGIN { FS = " " }; { print $1 }') sed -i "s\.*sha256:.*\        sha256: $NEW_SHASUM\" io.github.spacingbat3.webcord.yml
