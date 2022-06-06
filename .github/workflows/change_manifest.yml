@@ -17,13 +17,3 @@ jobs:
 
       - name: modify manifest
         run: bash modify_manifest.sh
-      - name: setup git config
-        run: |
-          git config user.name "Github manifest modifier ci"
-          git config user.email "<>"
-
-      - name: commit
-        run: |
-          git add io.github.spacingbat3.webcord.yml
-          git commit -m "modify manifest with new release and sha256sum"
-          git push orgin master
