@@ -17,8 +17,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://github.com/vega-d/WebCord_flatpak_build/releases/download/v3.2.0/WebCord_v3.2.0.tar.gz
-        sha256: 0a1518ee36cbb253074a1eec176ead726bd00f2539ab200ae0b37895c2d30a4e
+        url: https://github.com/vega-d/WebCord_flatpak_build/releases/download/v3.3.0/WebCord_v3.3.0.tar.gz
+        sha256: dfdf2c19782a8967081ff864bc17dbb9aebed50966da27ed5609f2dc00b16f7e
         dest: ./main
       #- type: archive
       #  path: ../WebCord_tarball.tar.gz
@@ -52,7 +52,7 @@ modules:
     sources:
       - type: archive
         url: http://www.dest-unreach.org/socat/download/socat-1.7.4.3.tar.gz
-        sha256: d697245144731423ddbbceacabbd29447089ea223e9a439b28f9ff90d0dd216e
+        sha256: dfdf2c19782a8967081ff864bc17dbb9aebed50966da27ed5609f2dc00b16f7e
         x-cheker-data:
           type: anitya
           project-id: 4848
