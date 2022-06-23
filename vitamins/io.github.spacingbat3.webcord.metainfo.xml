@@ -41,7 +41,7 @@
   </content_rating>
 
   <releases>
-    <release version="3.3.0" daet="2022-06-20" urgency="medium">
+    <release version="3.3.0" date="2022-06-20" urgency="medium">
       <description>
         <p>This release adds a canvas fingerprinting blocker as well as webPrefrences hardening</p>
       </description>
