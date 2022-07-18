@@ -41,6 +41,19 @@
   </content_rating>
 
   <releases>
+    <release version="3.5.1" date="2022-07-18" urgency="medium">
+      <description>
+        <p>Mitigate/fix the Electron's getUserMedia</p>
+        <p>Sort third-party checklist by identifier in Content Security Policy configuration section</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.4.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.4.0.tar.gz</location>
+          <checksum type="sha256">6f9173d7950bf7c0204e162c1ca513d5c7de2c2680cc8706eada27433d764419</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.4.0" date="2022-07-05" urgency="medium">
       <description>
         <p>Flatpak changes: this update gives the permission needed to allow a statusbar icon</p>
@@ -58,7 +71,7 @@
       <description>
         <p>This release adds a canvas fingerprinting blocker as well as webPrefrences hardening</p>
       </description>
-      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.3.0</url>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.5.1</url>
       <artifacts>
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.3.0.tar.gz</location>
