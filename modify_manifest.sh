@@ -7,7 +7,7 @@ LATEST_RELEASE="$(cat latest.1 | grep tar.gz | grep href | awk 'BEGIN { FS = "\"
 echo $LATEST_RELEASE
 NEW_SHASUM=$(sha256sum WebCord_${LATEST_RELEASE}.tar.gz  | awk 'BEGIN { FS = " " }; { print $1 }') 
 sed -i "s\.*url: https://github.com/vega-d.*\        url: https://github.com${NEW_URL}\g" io.github.spacingbat3.webcord.yml
-sed -i "s\.*sha256:.*\        sha256: ${NEW_SHASUM}\g" io.github.spacingbat3.webcord.yml
+sed -i "s\.*sha256:.*\        sha256: ${NEW_SHASUM}\" io.github.spacingbat3.webcord.yml
 cat io.github.spacingbat3.webcord.yml
 git config user.name "Github manifest bot"
 git config user.email "<>"
