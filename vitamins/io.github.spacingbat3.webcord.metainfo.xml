@@ -41,12 +41,26 @@
   </content_rating>
 
   <releases>
+    <release version="3.5.2" date="2022-07-24" urgency="medium">
+      <description>
+        <p>Flatpak changes: Added permissions to allow webcord to send notifications</p>
+        <p>Add Google Storage API CSP.</p>
+        <p>Spoof Errors in modified Web API elements.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.5.2</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.5.2.tar.gz</location>
+          <checksum type="sha256">86431b54c97617734ed5bd7307830e522e208f6f8087cf4cec5ddbecaba25e15</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.5.1" date="2022-07-18" urgency="medium">
       <description>
         <p>Mitigate/fix the Electron's getUserMedia</p>
         <p>Sort third-party checklist by identifier in Content Security Policy configuration section</p>
       </description>
-      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.4.0</url>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.5.1</url>
       <artifacts>
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.4.0.tar.gz</location>
