@@ -51,7 +51,7 @@
           <location>https://github.com/SpacingBat3/WebCord/archichve/refs/tags/v3.6.1.tar.gz</location>
           <checksum type="sha256">3191f1420a51e13840a6ecc518c9560c9044282f0a6bc055285b7cc53273e118</checksum>
         </artifact>
-      <artifacts>
+      </artifacts>
     </release>
     <release version="3.6.0" date="2022-08-01" urgency="medium">
       <description>
