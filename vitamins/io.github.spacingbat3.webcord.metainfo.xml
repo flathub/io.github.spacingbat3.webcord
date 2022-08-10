@@ -41,15 +41,29 @@
   </content_rating>
 
   <releases>
-    <release version="3.6.1" date="2022-08-08" urgency="medium">
+    <release version="3.7.1" date="2022-08-08" urgency="medium">
       <description>
-        <p>Bump version to 3.6.1</p>
+        <p>Fix screenshare with electron 20.x.1</p>
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.7.1</url>
       <artifacts> 
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archichve/refs/tags/v3.6.1.tar.gz</location>
           <checksum type="sha256">3191f1420a51e13840a6ecc518c9560c9044282f0a6bc055285b7cc53273e118</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.7.0" date="2022-08-07" urgency="medium">
+      <description>
+        <p>Encrypt configuration files using the safeStorage api</p>
+        <p>Bump major electron version, now at 20.x.y</p>
+        <p>Harden webPrefrences policies</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.7.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.7.0.tar.gz</location>
+          <checksum type="sha256">09ef55ed2a97ff35f1cd64cf4d4b16a64367683067b524475c771bd62c7a6a94</checksum>
         </artifact>
       </artifacts>
     </release>
