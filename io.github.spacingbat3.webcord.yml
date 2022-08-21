@@ -16,16 +16,16 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierItem-2-1
 modules:
-  - name: unappimage
-    buildsystem: simple
-    build-commands:
-      - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=/app/bin
-    cleanup: ["*"]
-    sources:
-      - type: git
-        url: https://github.com/refi64/unappimage
-        commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
-
+  # - name: unappimage
+  #   buildsystem: simple
+  #   build-commands:
+  #     - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=/app/bin
+  #   cleanup: ["*"]
+  #   sources:
+  #     - type: git
+  #       url: https://github.com/refi64/unappimage
+  #       commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
+ # Removed, since launching the appimage with the --appimage-extract option works just fine, and also probably helps to decrease server load -Oro
   - name: webcord
     buildsystem: simple
     sources:
@@ -60,7 +60,9 @@ modules:
       - install -D icon48.png /app/share/icons/hicolor/48x48/apps/io.github.spacingbat3.webcord.png
       - install -D icon128.png /app/share/icons/hicolor/128x128/apps/io.github.spacingbat3.webcord.png
       - install -D icon256.png /app/share/icons/hicolor/256x256/apps/io.github.spacingbat3.webcord.png
-      - unappimage WebCord-*.AppImage
+      - chmod +x WebCord-*.AppImage
+      - ./WebCord-*.AppImage --appimage-extract
+      # - unappimage WebCord-*.AppImage
       - mv squashfs-root /app/bin/webcord
 
   - name: socat
