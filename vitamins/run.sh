@@ -13,5 +13,5 @@ then
     FLAGS="$FLAGS --disable-gpu-sandbox"
 fi
 
-env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/bin/webcord $FLAGS "$@"
+env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/bin/webcord/usr/bin/webcord $FLAGS "$@"
 kill -SIGTERM $socat_pid
