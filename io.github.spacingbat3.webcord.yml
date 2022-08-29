@@ -30,7 +30,7 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.8.p/WebCord-3.8.0-x64.AppImage
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.8.0/WebCord-3.8.0-x64.AppImage
         sha256: 6bd0b03aabbcd8e15d52ca099b090057f4a794f23869644b71d025f07a429c70
         only-arches: [x86_64]
 
