@@ -41,6 +41,19 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.0" date="2022-08-29" urgency="medium">
+      <description>
+        <p>Add support for redirecting to http pages</p>
+        <p>Make scrollbars more compact in WebCord's internal pages</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.0.tar.gz</location>
+          <checksum type="sha256">aa69bbd289651a6138464013c753c2d0488f8f5664df41ca1c10906bc57b2c69</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.7.1" date="2022-08-08" urgency="medium">
       <description>
         <p>Fix screenshare with electron 20.x.1</p>
