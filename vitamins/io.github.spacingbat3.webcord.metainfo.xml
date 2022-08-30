@@ -41,6 +41,24 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.1" date="2022-08-30" urgency="medium">
+       <description>
+         <p>Flatpak changes:</p>
+         <p>This release enables wayland by default when using webcord on wayland</p>
+         <p></p>
+         <p>Webcord changes:</p>
+         <p>Fix missing icon in releases.</p>
+         <p>Fix tray icon showing unread messages even when there are no unread messages</p>
+         <p>Update electron to 20.1.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.1</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.1.tar.gz</location>
+          <checksum type="sha256">f7144eb63939039ce666994916d694537e3bb1991ec159b47b89d79e800c0d39</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.0" date="2022-08-29" urgency="medium">
       <description>
         <p>Add support for redirecting to http pages</p>
