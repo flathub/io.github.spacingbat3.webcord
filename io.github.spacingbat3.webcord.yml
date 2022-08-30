@@ -17,27 +17,17 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierItem-2-1
 modules:
-  # - name: unappimage
-  #   buildsystem: simple
-  #   build-commands:
-  #     - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=/app/bin
-  #   cleanup: ["*"]
-  #   sources:
-  #     - type: git
-  #       url: https://github.com/refi64/unappimage
-  #       commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
- # Removed, since launching the appimage with the --appimage-extract option works just fine, and also probably helps to decrease server load -Oro
   - name: webcord
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.8.0/WebCord-3.8.0-x64.AppImage
-        sha256: 6bd0b03aabbcd8e15d52ca099b090057f4a794f23869644b71d025f07a429c70
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.8.1/WebCord-3.8.1-x64.AppImage
+        sha256: f7f7fb812d71cde738a44c53a0131f28ec4782f90f530b5d3d2f82c8d8c50d65
         only-arches: [x86_64]
 
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.8.0/WebCord-3.8.0-arm64.AppImage
-        sha256: db92e52e0b1f081f85709d02c7a69c1bfc57941bceeba16da31bd5b6264c562d
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.8.1/WebCord-3.8.1-arm64.AppImage
+        sha256: 11e47daaf3a6802a2fede1147405c24d90f0fd19b7d8a9a6195b1e3151740aab
         only-arches: [aarch64]
       
       - type: file
@@ -63,7 +53,6 @@ modules:
       - install -D icon256.png /app/share/icons/hicolor/256x256/apps/io.github.spacingbat3.webcord.png
       - chmod +x WebCord-*.AppImage
       - ./WebCord-*.AppImage --appimage-extract
-      # - unappimage WebCord-*.AppImage
       - mv squashfs-root /app/bin/webcord
 
   - name: socat
