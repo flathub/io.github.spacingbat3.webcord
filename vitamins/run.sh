@@ -6,12 +6,7 @@ socat $SOCAT_ARGS \
     &
 socat_pid=$!
 
-if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
- FLAGS="--enable-features=WaylandWindowDecorations,UseOzonePlatform,UseSkiaRenderer --ozone-platform=wayland --enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --disable-gpu-vsync"
-else
- FLAGS='--enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer'
-fi
-
+FLAGS='--enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer'
 
 if [[ $XDG_SESSION_TYPE == "Wayland" ]] && [ -c /dev/nvidia0 ]
 then
