@@ -18,6 +18,9 @@
   
   <description>
     <p>
+      This flatpak is not supported by webcord directly! Please open issues on the flathub repository first!
+    </p>
+    <p>
       A Discord and Fosscord web-based client made with the electron.
     </p>
   </description>
