@@ -44,6 +44,18 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.2" date="2022-09-11" urgency="medium">
+      <description>
+        <p>Bump webcord version to 3.8.2</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.2</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.2.tar.gz</location>
+          <checksum type="sha256">b780b8129ff9bddb231398109967007761e84cf95694f2db5d129d49e0c3cc18</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.1" date="2022-08-30" urgency="medium">
        <description>
          <p>Flatpak changes:</p>
