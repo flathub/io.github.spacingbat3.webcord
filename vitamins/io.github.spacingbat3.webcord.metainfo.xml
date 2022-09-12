@@ -44,6 +44,18 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.3" date="2022-09-12" urgency="medium">
+      <description>
+        <p>Fix wayland screenshare portals</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.3</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.3.tar.gz</location>
+          <checksum type="sha256">b1dbe5424800081434639bc11f0bfc80223fd16b590de819574f97e0204d7d4d</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.2" date="2022-09-11" urgency="medium">
       <description>
         <p>Bump webcord version to 3.8.2</p>
