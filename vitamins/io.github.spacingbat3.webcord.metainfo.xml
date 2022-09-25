@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.4" date="2022-09-25" urgency="medium">
+      <description>
+        <p>Update WebCord's branding</p>
+        <p>Fix WebSocket server not being able to handle any connections</p>
+        <p>Update electron to 20.2.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.4</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.4.tar.gz</location>
+          <checksum type="sha256">76c7eb0166419f99549ca2a869e82ce2b9d303021471d242a84a3c4e811b157a</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.3" date="2022-09-12" urgency="medium">
       <description>
         <p>Fix wayland screenshare portals</p>
