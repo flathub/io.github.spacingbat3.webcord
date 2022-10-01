@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.6" date="2022-10-01" urgency="medium">
+      <description>
+        <p>Fix bug with a microphone caused by a duplicate requests sent without mediaType in Electron 21</p>
+	<p>Improve logic of detecting unofficial Discord instances used for determining if tray icon should be changed</p>
+	<p>Fix (in-promise, non-critical) Error when requesting the screen share if permission to it should be denied</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.6</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.6</location>
+          <checksum type="sha256">daa132afafc77aa75dff595952ae256cd84f15b0526286931f707b32d6c5fd23</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.5" date="2022-09-30" urgency="medium">
       <description>
         <p>Bump Electron to 21.x.y</p>
