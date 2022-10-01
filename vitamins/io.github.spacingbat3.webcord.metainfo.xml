@@ -44,6 +44,19 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.5" date="2022-09-30" urgency="medium">
+      <description>
+        <p>Bump Electron to 21.x.y</p>
+        <p>Fix Spotify Embeds with built-in CSP turned on</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.5</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.5</url>
+          <checksum type="sha256">948e1e41b1cdac4030b5e87fe3bf24fc062b05af29b930113bd4e52a63a2cca9</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.4" date="2022-09-25" urgency="medium">
       <description>
         <p>Update WebCord's branding</p>
