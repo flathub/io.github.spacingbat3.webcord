@@ -44,16 +44,28 @@
   </content_rating>
 
   <releases>
+    <release version="3.8.7" date="2022-10-09" urgency="medium">
+      <description>
+        <p>Bump to 3.8.7</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.7</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.7.tar.gz</location>
+          <checksum type="sha256">69f616cb6ca83bacb48d6aeb9519d8f23355c80b53e2c6a3d0c3c556e4398f8b</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.6" date="2022-10-01" urgency="medium">
       <description>
         <p>Fix bug with a microphone caused by a duplicate requests sent without mediaType in Electron 21</p>
-	<p>Improve logic of detecting unofficial Discord instances used for determining if tray icon should be changed</p>
-	<p>Fix (in-promise, non-critical) Error when requesting the screen share if permission to it should be denied</p>
+        <p>Improve logic of detecting unofficial Discord instances used for determining if tray icon should be changed</p>
+        <p>Fix (in-promise, non-critical) Error when requesting the screen share if permission to it should be denied</p>
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.6</url>
       <artifacts>
         <artifact type="binary" platform="source">
-          <location>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.6</location>
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.6.tar.gz</location>
           <checksum type="sha256">daa132afafc77aa75dff595952ae256cd84f15b0526286931f707b32d6c5fd23</checksum>
         </artifact>
       </artifacts>
@@ -66,7 +78,7 @@
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.5</url>
       <artifacts>
         <artifact type="binary" platform="source">
-          <location>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.5</location>
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.6.tar.gz</location>
           <checksum type="sha256">948e1e41b1cdac4030b5e87fe3bf24fc062b05af29b930113bd4e52a63a2cca9</checksum>
         </artifact>
       </artifacts>
