@@ -46,7 +46,10 @@
   <releases>
     <release version="3.8.7" date="2022-10-09" urgency="medium">
       <description>
-        <p>Bump to 3.8.7</p>
+        <p>Fix random freezes somehow caused by logging functions.</p>
+        <p>Use native fetch API if available in Node</p>
+        <p>Fix some Spotify embeds using build/embeds-legacy</p>
+        <p>Fix a crash/fatal Error that caused about window not to load</p>
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.7</url>
       <artifacts>
