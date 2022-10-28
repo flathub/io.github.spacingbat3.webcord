@@ -44,6 +44,21 @@
   </content_rating>
 
   <releases>
+    <release version="3.9.0" date="2022-10-27" urgency="medium">
+      <description>
+        <p>Logging function fixes</p>
+        <p>Fix bug in CSS Loader which would cause webcord to freeze</p>
+        <p>Add support for window background transparency</p>
+        <p>Allow injecting CSS into popups</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.0</url>
+      <artifacts>
+        <artifact type="binary" type="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.0.tar.gz</location>
+          <checksum type="sha256">a5fa741647212d8f59ec5c8278537e6d14203913794da4185fa3112f63365d50</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.8.8" date="2022-10-10" urgency="medium">
       <description>
         <p>Fix applying flags outside of list of WebCord's.</p>
