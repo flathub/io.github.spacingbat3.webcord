@@ -44,6 +44,18 @@
   </content_rating>
 
   <releases>
+    <release version="3.9.1" date="2022-10-28" urgency="medium">
+      <description>
+        <p>Fix a bug which caused first argument passed to Electron not being parsed by WebCord.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.1</url>
+      <artifacts>
+        <artifact type="binary" type="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.1.tar.gz</location>
+          <checksum type="sha256">e09059453f498220e63f9f6dbfa583f0384eff62b46a6c649ab34640f58a1a8d</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.9.0" date="2022-10-27" urgency="medium">
       <description>
         <p>Logging function fixes</p>
