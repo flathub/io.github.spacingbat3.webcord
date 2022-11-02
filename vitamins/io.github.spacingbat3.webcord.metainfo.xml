@@ -44,13 +44,27 @@
   </content_rating>
 
   <releases>
+    <release version="3.9.2" date="2022-11-2" urgency="medium">
+      <description>
+        <p>Fix CSP for YouTube activity</p>
+        <p>Add setting to always close window on close button</p>
+        <p>Update electron to 21.2.1</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.2</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.2.tar.gz</location>
+          <checksum type="sha256">788554fd22edebe98443f1d10b8666a8a7120436ff1ebd947ec3644b55d270ae</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.9.1" date="2022-10-28" urgency="medium">
       <description>
         <p>Fix a bug which caused first argument passed to Electron not being parsed by WebCord.</p>
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.1</url>
       <artifacts>
-        <artifact type="binary" type="source">
+        <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.1.tar.gz</location>
           <checksum type="sha256">e09059453f498220e63f9f6dbfa583f0384eff62b46a6c649ab34640f58a1a8d</checksum>
         </artifact>
@@ -65,7 +79,7 @@
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.0</url>
       <artifacts>
-        <artifact type="binary" type="source">
+        <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.0.tar.gz</location>
           <checksum type="sha256">a5fa741647212d8f59ec5c8278537e6d14203913794da4185fa3112f63365d50</checksum>
         </artifact>
