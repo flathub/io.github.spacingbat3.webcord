@@ -6,4 +6,4 @@ then
     FLAGS="$FLAGS --disable-gpu-sandbox"
 fi
 
-env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/bin/webcord/usr/bin/webcord $FLAGS "$@"
+env TMPDIR="$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-io.github.spacingbat3.webcord}" zypak-wrapper /app/bin/webcord/usr/bin/webcord $FLAGS "$@"
