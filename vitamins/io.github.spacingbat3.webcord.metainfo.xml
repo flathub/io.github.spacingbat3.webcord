@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="3.9.3" date="2022-11-9" urgency="medium">
+      <description>
+        <p>Fix weird behaviour of Hide window to tray with the close button option</p>
+        <p>Refactor localization files loader class (L10N)</p>
+        <p>Refactor Content Security Policy class</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.3</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.3.tar.gz</location>
+          <checksum type="sha256">2c0cf7f0b5ea793ba2eb6259626fab52d0817bb09be0581d6e94f9be620e2436</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.9.2" date="2022-11-2" urgency="medium">
       <description>
         <p>Fix CSP for YouTube activity</p>
