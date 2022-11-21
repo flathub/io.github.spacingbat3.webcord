@@ -50,11 +50,11 @@
         <p>Improve some command-line flags. </p>
         <p>Update Russian localization files. </p>
       </description>
-      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.3</url>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.0</url>
       <artifacts>
         <artifact type="binary" platform="source">
-          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.3.tar.gz</location>
-          <checksum type="sha256">2c0cf7f0b5ea793ba2eb6259626fab52d0817bb09be0581d6e94f9be620e2436</checksum>
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.0.tar.gz</location>
+          <checksum type="sha256">c03042ac18c65d5009a26bc6729b76154d2c1a8e53e738ee7912a060c04dba3f</checksum>
         </artifact>
       </artifacts>
     </release>
