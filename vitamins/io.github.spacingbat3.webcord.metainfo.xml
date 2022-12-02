@@ -55,7 +55,7 @@
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.1</url>
       <artifacts>
-        <artiact type="binary" platform="source">
+        <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.1.tar.gz</location>
           <checksum type="sha256">ecc3d2e8c3f860fe47aa9911e3b2708a3e584146a2f51e5fe95b604607a08663</checksum>
 	</artifact>
