@@ -22,13 +22,13 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.10.0/WebCord-3.10.0-x64.AppImage
-        sha256: 02271e5757075d80b62ff90e6d32ea290404a1acfb82a1e1478763c177f079b1
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.10.1/WebCord-3.10.1-x64.AppImage
+        sha256: 908d41d00b001d705ea0f26725d00f828ffc41a01b362abcea40d9fecfba76aa
         only-arches: [x86_64]
 
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.10.0/WebCord-3.10.0-arm64.AppImage
-        sha256: bae565c916e48e206615ebd2b0397e79bedfbd24a1b11a31327be47ef6240a13
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.10.1/WebCord-3.10.1-arm64.AppImage
+        sha256: 2f6a31e64a1416fe25ca693a16201986e1a86e83f82dca76eb8f0699396b6946
         only-arches: [aarch64]
       
       - type: file
