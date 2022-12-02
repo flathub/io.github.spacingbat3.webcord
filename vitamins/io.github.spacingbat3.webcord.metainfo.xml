@@ -44,6 +44,23 @@
   </content_rating>
 
   <releases>
+    <release version="3.10.1" date="2022-12-02" urgency="medium">
+      <description>
+        <p>Move WebSocket implementation to SpacingBat3/DisConnection</p>
+        <p>Implement support for NODE_DEBUG and DEBUG env variables</p>
+        <p>Improve algorithm that calculates and stores the window state</p>
+        <p>Move to electron 22</p>
+        <p>Bump minimal supported Electron version to 17.x.y</p>
+        <p>Localize WebCord to Arabic</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.1</url>
+      <artifacts>
+        <artiact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.1.tar.gz</location>
+          <checksum type="sha256">ecc3d2e8c3f860fe47aa9911e3b2708a3e584146a2f51e5fe95b604607a08663</checksum>
+	</artifact>
+      </artifacts>
+    </release>
     <release version="3.10.0" date="2022-11-20" urgency="medium">
       <description>
         <p>UI fixes for smaller window sizes / screens. </p>
