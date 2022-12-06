@@ -7,3 +7,9 @@ To make WebCord work with the global menu you have to give the flatpak access to
 flatpak override --talk-name=com.canonical.AppMenu.Registrar io.github.spacingbat3.webcord
 ```
 or using flatseal
+
+## Fix tray icon
+Since WebCord release 3.10.1, electron uses a different way to display the tray icon, which requires this flatpak to have the `--own-name==org.kde.StatusNotifierItem-3-1` permission, this command adds the permission:
+```
+flatpak override --own-name==org.kde.StatusNotifierItem-3-1 io.github.spacingbat3.webcord
+```
