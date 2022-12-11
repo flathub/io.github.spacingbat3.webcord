@@ -15,19 +15,19 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
-  - --talk-name=org.kde.kwalletd5
+  - --talk-name=org.kde.StatusNotifierItem-2-1
 modules:
   - name: webcord
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.10.1/WebCord-3.10.1-x64.AppImage
-        sha256: 908d41d00b001d705ea0f26725d00f828ffc41a01b362abcea40d9fecfba76aa
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v4.0.0/WebCord-4.0.0-x64.AppImage
+        sha256: d1071f4e915764faf74a7be5e48fdd006899cf3f011a63c50b4f10817ed69074
         only-arches: [x86_64]
 
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v3.10.1/WebCord-3.10.1-arm64.AppImage
-        sha256: 2f6a31e64a1416fe25ca693a16201986e1a86e83f82dca76eb8f0699396b6946
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v4.0.0/WebCord-4.0.0-arm64.AppImage
+        sha256: d04610c0cc1c24b54fa12781fb6e6a15446d6c142fdf0d03017b040efa9c9436
         only-arches: [aarch64]
       
       - type: file
