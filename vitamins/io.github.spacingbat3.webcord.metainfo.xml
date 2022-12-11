@@ -44,6 +44,32 @@
   </content_rating>
 
   <releases>
+    <release version="4.0.0" date="2022-12-10" urgency="medium">
+      <description>
+        <p>Bump to 4.0.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.0.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.0.0.tar.gz</location>
+          <checksum type="sha256">2a9421a4261c62e5d49f13e7b689a9a1cf85733cf20f181e7ae64d0758c4a710</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.10.2" date="2022-12-10" urgency="medium">
+      <description>
+        <p>Revert Electron bump and older versions deprecation.</p>
+        <p>Improve --verbose flag implementation to also make Chromium engine log at verbose as maximum LOG() and VLOG() level and actually enable logs.</p>
+        <p>Multiple bug fixes with WinStateKeeper logic about detecting if window is still maximized or not.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.2</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.2.tar.gz</location>
+          <checksum type="sha256">59d58a25fadb49adf0e9fae8b78aacfd1bf8414ebdc458e893e1433e755bf2cd</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="3.10.1" date="2022-12-02" urgency="medium">
       <description>
         <p>Move WebSocket implementation to SpacingBat3/DisConnection</p>
