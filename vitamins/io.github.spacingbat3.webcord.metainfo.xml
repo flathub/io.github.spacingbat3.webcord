@@ -44,6 +44,21 @@
   </content_rating>
 
   <releases>
+    <release version="4.1.0" date="2022-12-31" urgency="medium">
+      <description>
+        <p>Workaround a bug with desktopCapturer that caused crashes/SIGSEV on Wayland when trying to screen share.</p>
+        <p>Refactor right-click context menu.</p>
+        <p>Implement a button to copy a link from origin dialog popups.</p>
+        <p>Try to optimize app with Chromium profiler (Node / main process only).</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.1.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.1.0.tar.gz</location>
+          <checksum type="sha256">8a5a600e2c3ce896744b141628d340716c8609a06ab767a62a70fb3f581bf021</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.0.0" date="2022-12-10" urgency="medium">
       <description>
         <p>Bump to 4.0.0</p>
