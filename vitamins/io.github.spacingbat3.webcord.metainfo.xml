@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="4.1.1" date="2023-01-01" urgency="medium">
+      <description>
+        <p>Sync localization files with Weblate</p>
+        <p>Repackage app under newer @reforged/maker-appimage version to fix .desktop / shell script syntax errors</p>
+        <p>Cache favicon hashes to conserve CPU usage</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.1.1</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.1.1.tar.gz</location>
+          <checksum type="sha265">3f22e5db824b73780f33b1eba8e9bf7cd3998cf65cf9304d3fc0c624319192f9</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.1.0" date="2022-12-31" urgency="medium">
       <description>
         <p>Workaround a bug with desktopCapturer that caused crashes/SIGSEV on Wayland when trying to screen share.</p>
