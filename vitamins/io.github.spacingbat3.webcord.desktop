@@ -5,4 +5,6 @@ Terminal=false
 Type=Application
 Icon=io.github.spacingbat3.webcord
 StartupWMClass=WebCord
+Comment=A Discord and Fosscord electron based client implemented without Discord API.
+Categories=Network;InstantMessaging;
 Keywords=Discord;Fosscord;
