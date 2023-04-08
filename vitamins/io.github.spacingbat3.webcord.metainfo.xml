@@ -44,6 +44,18 @@
   </content_rating>
 
   <releases>
+    <release version="4.2.0" date="2023-04-08" urgency="medium">
+      <description>
+        <p>Update lockfile</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tar/v4.2.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.2.0.tar.gz</location>
+          <checksum type="sha256">f49eb0627ef1cf2ce41cdf22fef81b09614c0080619be6a77016e14a426bc951</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.1.1" date="2023-01-01" urgency="medium">
       <description>
         <p>Sync localization files with Weblate</p>
