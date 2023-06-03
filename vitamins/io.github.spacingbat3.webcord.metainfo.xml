@@ -3,7 +3,7 @@
   <id>io.github.spacingbat3.webcord</id>
   
   <name>WebCord</name>
-  <summary>A Discord and Fosscord web-based client made with the electron</summary>
+  <summary>A web-based Discord and Fosscord client made with Electron</summary>
   
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
@@ -21,7 +21,7 @@
       This flatpak is not supported by webcord directly! Please open issues on the flathub repository first!
     </p>
     <p>
-      A Discord and Fosscord web-based client made with the electron.
+      A web-based Discord and Fosscord client made with Electron
     </p>
   </description>
 
