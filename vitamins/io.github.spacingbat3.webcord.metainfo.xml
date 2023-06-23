@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>io.github.spacingbat3.webcord</id>
-  
+
   <name>WebCord</name>
   <summary>A web-based Discord and Fosscord client made with Electron</summary>
-  
+
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
 
@@ -15,7 +15,7 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
-  
+
   <description>
     <p>
       This flatpak is not supported by webcord directly! Please open issues on the flathub repository first!
@@ -44,11 +44,29 @@
   </content_rating>
 
   <releases>
+    <release version="4.3.0" date="2023-06-23" urgency="medium">
+      <description>
+        <p>AppImages now use type2-runtime that while being experimental, doesn't require installing fuse2 package installed on modern distros/DEs (as most of them use fuse3 now) and since we use fuse2 builds, we still don't deprecate users with older software installed</p>
+        <p>AppImages now support parsing Arch Linux styled {{ name }}-flags.conf files</p>
+        <p>Add select all item/keybind to menu bar for all platforms</p>
+        <p>Bump Electron to v25</p>
+        <p>Remove polyfills from WebCord</p>
+        <p>Update code for breaking changes in some WebCord dependencies</p>
+        <p>Update overall dependencies to their latest versions</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.3.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.3.0.tar.gz</location>
+          <checksum type="sha256">298f0a47abaa896f894d93e1d4a76325381c989630161750af5e91593af9aa27</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.2.0" date="2023-04-08" urgency="medium">
       <description>
         <p>Update lockfile</p>
       </description>
-      <url>https://github.com/SpacingBat3/WebCord/releases/tar/v4.2.0</url>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.2.0</url>
       <artifacts>
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.2.0.tar.gz</location>
@@ -327,7 +345,7 @@
         <p>Fix screenshare with electron 20.x.1</p>
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.7.1</url>
-      <artifacts> 
+      <artifacts>
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archichve/refs/tags/v3.6.1.tar.gz</location>
           <checksum type="sha256">3191f1420a51e13840a6ecc518c9560c9044282f0a6bc055285b7cc53273e118</checksum>
@@ -417,7 +435,7 @@
         <p>This release bumps the electron version to 19.0.1 and greatly improves wayland support</p>
       </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.2.0</url>
-      
+
       <artifacts>
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.2.0.tar.gz</location>
