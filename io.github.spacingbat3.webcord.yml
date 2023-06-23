@@ -8,7 +8,7 @@ command: run.sh
 separate-locales: false
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   - --socket=pulseaudio
   - --share=network
@@ -28,9 +28,9 @@ modules:
 
       - type: file
         url: https://github.com/SpacingBat3/WebCord/releases/download/v4.2.0/WebCord-4.2.0-arm64.AppImage
-        sha256: a835e88f983b969551162ba771b3ff82e7a4a47ce2db1bc9570f0496dd32edc5 
+        sha256: a835e88f983b969551162ba771b3ff82e7a4a47ce2db1bc9570f0496dd32edc5
         only-arches: [aarch64]
-      
+
       - type: file
         dest-filename: run.sh
         path: ./vitamins/run.sh
