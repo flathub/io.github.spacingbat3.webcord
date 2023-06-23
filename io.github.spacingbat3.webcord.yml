@@ -22,13 +22,13 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v4.2.0/WebCord-4.2.0-x64.AppImage
-        sha256: c64a7975a8403942e936dcb18e2f288cccbb194144fdd0de0f377631b060f291
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v4.3.0/WebCord-4.3.0-x64.AppImage
+        sha256: 0749fd2551673191d33dd56c3eb963288d560661c61f2abcae66826c08bd903b
         only-arches: [x86_64]
 
       - type: file
-        url: https://github.com/SpacingBat3/WebCord/releases/download/v4.2.0/WebCord-4.2.0-arm64.AppImage
-        sha256: a835e88f983b969551162ba771b3ff82e7a4a47ce2db1bc9570f0496dd32edc5
+        url: https://github.com/SpacingBat3/WebCord/releases/download/v4.3.0/WebCord-4.3.0-arm64.AppImage
+        sha256: 74eaec4f8ccd540d56851734c45b6a6fe279894da41b474d47cffb11b19bf8f4
         only-arches: [aarch64]
 
       - type: file
@@ -55,3 +55,4 @@ modules:
       - chmod +x WebCord-*.AppImage
       - ./WebCord-*.AppImage --appimage-extract
       - mv squashfs-root /app/bin/webcord
+      - sed 's|exec xargs|exec xargs zypak-wrapper|g' -i /app/bin/webcord/usr/bin/webcord
