@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="4.4.0" date="2023-08-15" urgency="medium">
+      <description>
+        <p>Remove (previously left) unnecessary dependencies.</p>
+        <p>Update to Electron v26.0.0.</p>
+        <p>Resolve linter errors/warnings around types.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.4.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.0.tar.gz</location>
+          <checksum type="sha256">aa9668102cdec283e2a2af09738c8750ee1bbb57af24de529efc2b1a5e642a82</checksum>
+	</artifact>
+      </artifacts>
+    </release>
     <release version="4.3.0" date="2023-06-23" urgency="medium">
       <description>
         <p>AppImages now use type2-runtime that while being experimental, doesn't require installing fuse2 package installed on modern distros/DEs (as most of them use fuse3 now) and since we use fuse2 builds, we still don't deprecate users with older software installed</p>
