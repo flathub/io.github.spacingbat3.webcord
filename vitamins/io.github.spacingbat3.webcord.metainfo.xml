@@ -44,6 +44,22 @@
   </content_rating>
 
   <releases>
+    <release version="4.4.1" date="2023-09-19" urgency="medium">
+      <description>
+        <p>!!Important: This update was mainly created due to a security vulnerability in Electron, it does not resolve the crashing issue</p>
+        <p>Implement safe mode to resolve the GPU crashing issues</p>
+        <p>Implement a way in locale files to add title= element for labels, as a way for additional description when labels are not enough.</p>
+        <p>Update Electron to 26.2.1</p>
+        <p>Update spanish and arabic localization</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.4.1</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.1.tar.gz</location>
+          <checksum type="sha256">ba747ccc0bcab7c0831a06b751f4b5881c330272caa8eaa5e86a7c46b7643536</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.4.0" date="2023-08-15" urgency="medium">
       <description>
         <p>Remove (previously left) unnecessary dependencies.</p>
@@ -55,7 +71,7 @@
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.0.tar.gz</location>
           <checksum type="sha256">aa9668102cdec283e2a2af09738c8750ee1bbb57af24de529efc2b1a5e642a82</checksum>
-	</artifact>
+        </artifact>
       </artifacts>
     </release>
     <release version="4.3.0" date="2023-06-23" urgency="medium">
