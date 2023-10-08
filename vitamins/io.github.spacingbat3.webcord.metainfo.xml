@@ -44,6 +44,21 @@
   </content_rating>
 
   <releases>
+    <release version="4.4.3" date="2023-10-08" urgency="medium">
+      <description>
+        <p>Fix / improve displaying long url in OS/native cross-origin dialog window</p>
+        <p>Update implementation of --add-css-theme, to make it display an OS/native file chooser dialog instead of reading the predefined path in cmdline, possibly making it to work better with sandboxing (Flatpaks, Snaps etc.)</p>
+        <p>Improve how safe mode is launched, removing redundant process.argv[0] from arguments.</p>
+        <p>Switch to Node16 module code, which makes WebCord to use an actual import() calls instead of wrapped require() into promises, allowing for partial ESM implementation.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.4.3</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.3.tar.gz</location>
+          <checksum type="sha256">9cd7baee440226209f4dd4979fe264c3eb0c2aa65ec4829d645a64490cf789df</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.4.1" date="2023-09-19" urgency="medium">
       <description>
         <p>!!Important: This update was mainly created due to a security vulnerability in Electron, it does not resolve the crashing issue</p>
