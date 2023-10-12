@@ -8,10 +8,10 @@ flatpak override --talk-name=com.canonical.AppMenu.Registrar io.github.spacingba
 ```
 or using flatseal
 
-<--
+<!--
 ## Run under XWayland
 If using wayland, WebCord will automatically run under wayland. If this is not desired, WebCord can be forced to use XWayland by revoking the Wayland permissions:
 ```
 flatpak override --user --nosocket=wayland --nosocket=fallback-x11 --socket=x11 io.github.spacingbat3.webcord
 ```
--->
+--!>
