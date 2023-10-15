@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="4.5.0" date="2023-10-15" urgency="medium">
+      <description>
+        <p>Bump Electron to v27. This resolves regressions with webcord turning blank after leaving it open for a while.</p>
+        <p>Update various dependencies, such as marked and highlight.js.</p>
+        <p>Update implementation of source listing for screen share, this resolves an issue with not being able to share seperate windows.</p>
+        </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.5.0.tar.gz</location>
+          <checksum type="sha256">27723a752ca4750eda16b7a1f93b785160f5f85460cc3a395a86f75c917db62a</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.4.3" date="2023-10-08" urgency="medium">
       <description>
         <p>Fix / improve displaying long url in OS/native cross-origin dialog window</p>
