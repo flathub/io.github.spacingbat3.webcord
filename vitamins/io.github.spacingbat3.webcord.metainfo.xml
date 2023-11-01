@@ -44,6 +44,19 @@
   </content_rating>
 
   <releases>
+    <release version="4.5.1" date="2023-11-1" urgency="medium">
+      <description>
+        <p>Fix some CSS tweaks in WebCord made to Discord</p>
+        <p>Update Electron to 27.0.2</p>
+        </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.1</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.5.1.tar.gz</location>
+          <checksum type="sha256">171b7a8f0d1a28078a5375cded70ad3b9ad35c137c6641118970db61d15f9f84</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.5.0" date="2023-10-15" urgency="medium">
       <description>
         <p>Bump Electron to v27. This resolves regressions with webcord turning blank after leaving it open for a while.</p>
