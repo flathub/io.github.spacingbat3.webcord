@@ -44,11 +44,23 @@
   </content_rating>
 
   <releases>
+    <release version="4.5.2" date="2023-11-26" urgency="medium">
+      <description>
+        <p>Revert back to `module.exports` in Forge config.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.2</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.5.2.tar.gz</location>
+          <checksum type="sha256">e6fca20aa9ef370639ca02097859f61d971b800fb07750bd1f86bee8d1e318a6</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.5.1" date="2023-11-1" urgency="medium">
       <description>
         <p>Fix some CSS tweaks in WebCord made to Discord</p>
         <p>Update Electron to 27.0.2</p>
-        </description>
+      </description>
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.1</url>
       <artifacts>
         <artifact type="binary" platform="source">
