@@ -44,6 +44,21 @@
   </content_rating>
 
   <releases>
+    <release version="4.6.0" date="2023-12-16" urgency="medium">
+      <description>
+        <p>Update to Electron 18</p>
+        <p>Strip tracking from Discords CDN URLs when those are opened outside for WebCord</p>
+        <p>Fix built-in CSP for new Soundcloud player</p>
+        <p>Re-approach move to Node16</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.6.0</url>
+      <artifacts>
+        <artifact type="binary" platform="source">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.6.0.tar.gz</location>
+          <checksum type="sha256">082634d14590703c6496f30c9c55595e61ecfb8536ab5b5f95ffbe17e31427e0</checksum>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="4.5.2" date="2023-11-26" urgency="medium">
       <description>
         <p>Revert back to `module.exports` in Forge config.</p>
