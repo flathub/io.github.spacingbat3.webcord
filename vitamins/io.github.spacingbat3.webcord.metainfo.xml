@@ -44,6 +44,20 @@
   </content_rating>
 
   <releases>
+    <release version="4.6.1" date="2023-12-29" urgency="medium">
+        <description>
+            <p>Bump lockfile, update dependencies</p>
+            <p>Remove (most) font modules that were bundled with WebCord, try using available system fonts instead</p>
+            <p>Fix renderer crashes with About window</p>
+        </description>
+        <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.6.1</url>
+        <artifacts>
+            <artifact type="binary" platform="source">
+                <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.6.1.tar.gz</location>
+                <checksum type="sha256">982edbd64ef19d95c27d765fff900a5f5c6d9b16a516e3346e2a1b5d18f0f99d</checksum>
+            </artifact>
+        </artifacts>
+    </release>
     <release version="4.6.0" date="2023-12-16" urgency="medium">
       <description>
         <p>Update to Electron 18</p>
