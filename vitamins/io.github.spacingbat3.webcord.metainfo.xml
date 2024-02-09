@@ -44,7 +44,14 @@
   </content_rating>
 
   <releases>
-  <release version="4.7.0" date="2024-01-28" urgency="medium">
+    <release version="4.7.1" date="2024-02-06" urgency="medium">
+        <description>
+            <p>Implement handling of the circular references in CSS files that WebCord parses (it might be fun to try how this behaved before)</p>
+            <p>Properly handle audio sharing; don't define the audio should be shared if the user doesn't want to to do so and allow sharing audio on all platforms only with Electron 29 and newer</p>
+        </description>
+        <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.7.1</url>
+    </release>
+    <release version="4.7.0" date="2024-01-28" urgency="medium">
         <description>
         </description>
         <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.7.0</url>
