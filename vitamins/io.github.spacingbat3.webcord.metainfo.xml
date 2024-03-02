@@ -3,7 +3,7 @@
   <id>io.github.spacingbat3.webcord</id>
 
   <name>WebCord</name>
-  <summary>A web-based Discord and Fosscord client made with Electron</summary>
+  <summary>Web-based Discord client</summary>
 
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
@@ -21,7 +21,7 @@
       This flatpak is not supported by webcord directly! Please open issues on the flathub repository first!
     </p>
     <p>
-      A web-based Discord and Fosscord client made with Electron
+      An Electron wrapper for the Discord web-client. It introduces new privacy features and an optionnal native wayland support.
     </p>
   </description>
 
@@ -214,7 +214,7 @@
       <artifacts>
         <artifact type="binary" platform="source">
           <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.1.1.tar.gz</location>
-          <checksum type="sha265">3f22e5db824b73780f33b1eba8e9bf7cd3998cf65cf9304d3fc0c624319192f9</checksum>
+          <checksum type="sha256">3f22e5db824b73780f33b1eba8e9bf7cd3998cf65cf9304d3fc0c624319192f9</checksum>
         </artifact>
       </artifacts>
     </release>
@@ -443,7 +443,6 @@
        <description>
          <p>Flatpak changes:</p>
          <p>This release enables wayland by default when using webcord on wayland</p>
-         <p></p>
          <p>Webcord changes:</p>
          <p>Fix missing icon in releases.</p>
          <p>Fix tray icon showing unread messages even when there are no unread messages</p>
