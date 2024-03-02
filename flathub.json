@@ -1,4 +1,3 @@
 {
-  "only-arches": ["x86_64", "aarch64"],
-  "end-of-life": "This application is no longer maintained. Please use the non-flatpak version of webcord or a different discord client."
+  "only-arches": ["x86_64", "aarch64"]
 } 
