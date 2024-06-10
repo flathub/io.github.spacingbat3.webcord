@@ -26,12 +26,8 @@ flatpak override --talk-name=com.canonical.AppMenu.Registrar io.github.spacingba
 ```
 or using flatseal
 
-## Recommendations
-
-Running the app in a native Wayland context:
+## Run under XWayland
+If using wayland, WebCord will automatically run under wayland. If this is not desired, WebCord can be forced to use XWayland by revoking the Wayland permissions:
 ```
-flatpak run --branch=stable --arch=x86_64 io.github.spacingbat3.webcord --ignore-gpu-blocklist --enable-features=UseOzonePlatform,VaapiVideoDecoder,WebRTCPipeWireCapturer,smooth-scrolling,gpu-rasterization,zero-copy --ozone-platform=wayland
+flatpak override --user --nosocket=wayland --nosocket=fallback-x11 --socket=x11 io.github.spacingbat3.webcord
 ```
-
-> This will make use of the Ozone Platform setting, which comes with a Wayland mode by default.
-> Also added in `WebRTCPipeWireCapturer` to screenshare stuff using Pipewire Web RTC. Just make sure you have the xdg-portals installed properly.
