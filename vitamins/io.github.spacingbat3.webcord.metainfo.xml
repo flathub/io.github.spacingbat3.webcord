@@ -44,6 +44,10 @@
   </content_rating>
 
   <releases>
+    <release version="4.10.0" date="2024-07-06" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.0</url>
+    </release>
     <release version="4.9.2" date="2024-05-12" urgency="medium">
         <description>
         </description>
