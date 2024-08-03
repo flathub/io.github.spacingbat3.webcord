@@ -1,5 +1,5 @@
 #!/bin/bash
-FLAGS='--enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer'
+FLAGS='--enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer --enable-wayland-ime'
 
 WAYLAND_SOCKET=${WAYLAND_DISPLAY:-"wayland-0"}
 
