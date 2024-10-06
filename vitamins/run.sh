@@ -1,9 +1,14 @@
 #!/bin/bash
 FLAGS='--enable-gpu-rasterization --enable-zero-copy --enable-gpu-compositing --enable-native-gpu-memory-buffers --enable-oop-rasterization --enable-features=UseSkiaRenderer --enable-wayland-ime'
 
-WAYLAND_SOCKET=${WAYLAND_DISPLAY:-"wayland-0"}
+if [[ -e "$WAYLAND_DISPLAY" ]]
+then
+    WAYLAND_SOCKET=$WAYLAND_DISPLAY
+else
+    WAYLAND_SOCKET=$XDG_RUNTIME_DIR/${WAYLAND_DISPLAY:-"wayland-0"}
+fi
 
-if [[ -e "$XDG_RUNTIME_DIR/${WAYLAND_SOCKET}" ]]
+if [[ -e "$WAYLAND_SOCKET" ]]
 then
     FLAGS="$FLAGS --ozone-platform-hint=auto"
 
