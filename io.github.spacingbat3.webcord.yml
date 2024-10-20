@@ -1,8 +1,8 @@
 app-id: io.github.spacingbat3.webcord
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: "24.08"
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: "23.08"
 sdk: org.freedesktop.Sdk
 command: run.sh
 separate-locales: false
@@ -23,12 +23,12 @@ modules:
     sources:
       - type: file
         url: https://github.com/SpacingBat3/WebCord/releases/download/v4.10.2/WebCord-4.10.2-x64.AppImage
-        sha256: 3997f2b952d405ee2be274496a98085475e7238b7d2f28625821b58513ff9e25
+        sha256: 21f411c5501904de44c5d33b62ca39dc6047a6a313b4bdb5e8c54118fb5c6cb2
         only-arches: [x86_64]
 
       - type: file
         url: https://github.com/SpacingBat3/WebCord/releases/download/v4.10.2/WebCord-4.10.2-arm64.AppImage
-        sha256: adafdfa1ce015beac16918b2b765fae0b67f365987eb7f09b05bdce6485d320e
+        sha256: 728a74780d8c935511b40a24979dd87859175304012bbcc5b6b421287e3fd6ef
         only-arches: [aarch64]
 
       - type: file
