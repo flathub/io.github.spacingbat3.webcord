@@ -55,4 +55,7 @@ modules:
       - chmod +x WebCord-*.AppImage
       - ./WebCord-*.AppImage --appimage-extract
       - mv squashfs-root /app/bin/webcord
+      # https://github.com/flathub/io.github.spacingbat3.webcord/issues/109
+      # someone with more flatpak experience please come up with a better solution
+      - cp -r /app/bin/webcord/usr/lib/webcord/* /app/bin/webcord/usr/bin/ --no-clobber
       - sed 's|exec xargs|exec xargs zypak-wrapper|g' -i /app/bin/webcord/usr/bin/webcord
