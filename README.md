@@ -10,7 +10,7 @@ flatpak install io.github.spacingbat3.webcord
 ## Building it from sources
 Install the build deps:
 ```
-flatpak install flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08
+flatpak install flathub org.freedesktop.Platform//25.08 org.freedesktop.Sdk//25.08
 flatpak install flathub org.electronjs.Electron2.BaseApp
 ```
 

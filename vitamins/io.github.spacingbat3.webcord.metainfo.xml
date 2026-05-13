@@ -8,7 +8,22 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
 
-  <developer_name>Contributors of WebCord</developer_name>
+  <url type="homepage">https://github.com/SpacingBat3/WebCord</url>
+  <url type="bugtracker">https://github.com/SpacingBat3/WebCord/issues</url>
+  <url type="vcs-browser">https://github.com/SpacingBat3/WebCord</url>
+  <url type="translate">https://hosted.weblate.org/engage/webcord/</url>
+  <launchable type="desktop-id">io.github.spacingbat3.webcord.desktop</launchable>
+  <developer id="io.github.spacingbat3">
+    <name>Contributors of WebCord</name>
+  </developer>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">intense</content_attribute>
+    <content_attribute id="social-audio">intense</content_attribute>
+    <content_attribute id="social-contacts">intense</content_attribute>
+    <content_attribute id="money-purchasing">intense</content_attribute>
+  </content_rating>
 
   <supports>
     <control>pointing</control>
@@ -29,19 +44,9 @@
   <screenshots>
     <screenshot type="default">
       <caption>About page</caption>
-      <image>https://i.postimg.cc/sDpv6zcM/image.png</image>
+      <image>https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9naXRodWIvc3BhY2luZ2JhdDMud2ViY29yZC8xZmU5NWQ3MTIwMDkyYmVlOGMwNDczYzRkZjk2OWNlYy9zY3JlZW5zaG90cy9pbWFnZS0xX29yaWcucG5n</image>
     </screenshot>
   </screenshots>
-
-  <launchable type="desktop-id">io.github.spacingbat3.webcord.desktop</launchable>
-
-  <content_rating type="oars-1.1">
-    <content_attribute id="social-chat">intense</content_attribute>
-    <content_attribute id="social-info">intense</content_attribute>
-    <content_attribute id="social-audio">intense</content_attribute>
-    <content_attribute id="social-contacts">intense</content_attribute>
-    <content_attribute id="money-purchasing">intense</content_attribute>
-  </content_rating>
 
   <releases>
     <release version="4.13.0" date="2026-04-06" urgency="medium">
@@ -624,8 +629,4 @@
 
     </release>
   </releases>
-
-  <url type="homepage">https://github.com/SpacingBat3/WebCord</url>
-  <url type="bugtracker">https://github.com/SpacingBat3/WebCord/issues</url>
-  <url type="translate">https://hosted.weblate.org/engage/webcord/</url>
 </component>
