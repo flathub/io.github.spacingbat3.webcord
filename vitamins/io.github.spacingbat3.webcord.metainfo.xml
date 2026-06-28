@@ -49,6 +49,10 @@
   </screenshots>
 
   <releases>
+ 	<release version="4.13.2" date="2026-06-28" urgency="medium">
+	  <description />
+	  <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.13.2</url>
+    </release>
     <release version="4.13.0" date="2026-04-06" urgency="medium">
       <description />
       <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.13.0</url>
